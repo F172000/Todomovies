@@ -1,0 +1,29 @@
+.glass {
+    @apply border-4  shrink-0 h-[80%] w-[45%] rounded-3xl py-5 px-5 min-w-max;
+    @layer border-gray-100;
+    background: rgb(189, 44, 116);
+    box-shadow: 0 4px 30px #4747470b;
+    backdrop-filter: blur(7.1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .btn{
+    @apply rounded-full  text-xl shadow-sm text-center;
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  /* .form-control{
+    width: 100%;
+  } */
+  /* input[type=text] {
+    border: 3px solid rgb(49, 7, 74);
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+  } */
+  /* .textbox{
+    @apply border-0 px-5 py-3 rounded-xl w-3/4 shadow-sm text-lg ;
+    @apply focus:outline-none;
+    @layer align-center;
+  } */

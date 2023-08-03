@@ -1,0 +1,35 @@
+.glass {
+    @apply border-4  shrink-0 h-[80%] w-[45%] rounded-3xl py-5 px-5 min-w-max;
+    @layer border-gray-100;
+    background: rgb(184, 36, 110);
+    box-shadow: 0 4px 30px #4747470b;
+    backdrop-filter: blur(7.1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .btn{
+    @apply rounded-full  text-xl shadow-sm text-center;
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  .form-control{
+    width: 100%;
+  }
+  input[type=text] {
+    border: 3px solid rgb(49, 7, 74);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+  }
+.todo-box{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid pink;
+  }
+  .input-and-btn{
+    display: flex;
+  }
